@@ -1,0 +1,83 @@
+*{
+    font-family: 微軟正黑體;
+    margin: 0;
+    padding: 0;
+}
+
+.wrap{
+    background: #696890;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.content{
+    margin-top: 150px;
+    margin-bottom: 200px;
+}
+
+.content1{
+    color: #eee;
+}
+
+/* .html,.body {
+    background-color: #C5D499;
+} */
+
+.box{
+    background: #eee;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 2;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 25px;   
+    padding: 30px;
+    border-radius: 10px;
+    box-sizing: border-box;
+}
+
+.box p{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 2;   
+}
+
+.box1{
+    background: #696890;
+    color: #eee;
+    margin-top: 75px;
+}
+
+
+hr{
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.box6{
+    background: #eee;
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    line-height: 2;
+    width: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 100px;
+    margin-bottom: 25px;   
+    padding: 30px;
+    border-radius: 10px;
+}
+
+.box6 p{
+    font-size: 15px;
+    font-weight: normal;
+    letter-spacing: 1px;
+    line-height: 2;
+}
