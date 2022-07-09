@@ -20,6 +20,8 @@
 
 .content1{
     color: #eee;
+    writing-mode: vertical-lr;
+    border-left: 1px solid #eee;
 }
 
 /* .html,.body {
