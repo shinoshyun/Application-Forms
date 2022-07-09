@@ -1,21 +1,25 @@
 *{
     font-family: 微軟正黑體;
     margin: 0;
-    padding: 0;
+    /* padding: 0; */
+}
+.html{
+    height: 100%;
 }
 
 .wrap{
     background: #696890;
     display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 10%;
-    padding-right: 10%;
+    padding: 10%;
+    box-sizing: border-box;
+    align-items: flex-start;
+    justify-content:center;
+
 }
 
 .content{
-    margin-top: 150px;
-    margin-bottom: 200px;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .content1{
@@ -48,6 +52,7 @@
     letter-spacing: 2px;
     line-height: 2;
     width: auto;
+    height: auto;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 100px;
