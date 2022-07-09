@@ -12,8 +12,7 @@
     display: flex;
     padding: 10%;
     box-sizing: border-box;
-    align-items: flex-start;
-    justify-content:center;
+    justify-content: center;
 
 }
 
@@ -29,7 +28,7 @@
     letter-spacing: 2px;
 }
 
-.box{
+.box , .box5{
     background: #eee;
     color: #222222;
     font-size: 18px;
@@ -45,23 +44,11 @@
 }
 
 .box5{
-    background: #eee;
-    color: #222222;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 2px;
-    line-height: 2;
-    width: auto;
-    height: auto;
-    margin-left: 10px;
-    margin-right: 10px;
     margin-top: 100px;
-    margin-bottom: 25px;   
-    padding: 30px;
-    border-radius: 10px;
+
 }
 
-.box p{
+.box p , .box5 p{
     font-size: 15px;
     font-weight: normal;
     letter-spacing: 1px;
@@ -77,12 +64,4 @@
 hr{
     margin-top: 15px;
     margin-bottom: 15px;
-}
-
-
-.box5 p{
-    font-size: 15px;
-    font-weight: normal;
-    letter-spacing: 1px;
-    line-height: 2;
 }
