@@ -78,16 +78,22 @@ hr{
         display: block;
         padding: 5%;
     }
+    .content1{
+        writing-mode: horizontal-tb;
+        font-size: 15px;
+        border-bottom: 1px solid #eee;
+        text-align: center;
+    }
+    
 
     .box2 ,.box5{
         font-size: 18px;
+        margin-bottom: 50px;
     }
 
-    /* .box1 p ,.box2 p ,.box5 p{
-        font-size: 1px; 
-    } */
-    
+
     .box5{
         margin-top: 0px;
     }
+
 }
