@@ -75,9 +75,11 @@ hr{
 
 a:link{
     color: #696890;
-    font-size: 15px;
+    font-size: 20px;
     font-weight: bold;
+    text-align: center;
     text-decoration: none;
+    
 }
 
 @media(max-width: 768px){
@@ -89,6 +91,7 @@ a:link{
         writing-mode: horizontal-tb;
         font-size: 15px;
         border-bottom: 1px solid #eee;
+        border-left: none;
         text-align: center;
     }
     .box1{
