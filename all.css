@@ -84,13 +84,14 @@ hr{
         border-bottom: 1px solid #eee;
         text-align: center;
     }
-    
+    .box1{
+        margin-top: 15px;
+    }
 
     .box2 ,.box5{
         font-size: 18px;
         margin-bottom: 50px;
     }
-
 
     .box5{
         margin-top: 0px;
