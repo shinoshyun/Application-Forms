@@ -73,8 +73,10 @@ hr{
     margin-bottom: 15px;
 }
 
-a{
+a:link{
     font-size: 15px;
+    font-weight: bold;
+    color: #696890;
     margin-top: 10px;
 
 }
