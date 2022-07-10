@@ -74,11 +74,10 @@ hr{
 }
 
 a:link{
+    color: #696890;
     font-size: 15px;
     font-weight: bold;
-    color: #696890;
-    margin-top: 10px;
-
+    text-decoration: none;
 }
 
 @media(max-width: 768px){
