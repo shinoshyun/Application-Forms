@@ -53,7 +53,6 @@
 
 .box1 p ,.box2 p ,.box5 p{
     font-size: 15px;
-    font-weight: medium;
     letter-spacing: 1px;
     line-height: 2;   
 }
@@ -75,11 +74,17 @@ hr{
 
 a:link{
     color: #696890;
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     
+}
+
+a:hover{
+    color: rgb(240, 58, 94);
+    background-color: transparent;
+    text-decoration: underline;
 }
 
 @media(max-width: 768px){
