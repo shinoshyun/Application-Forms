@@ -73,6 +73,12 @@ hr{
     margin-bottom: 15px;
 }
 
+a{
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
 @media(max-width: 768px){
     .wrap{
         display: block;
