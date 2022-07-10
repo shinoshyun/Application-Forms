@@ -77,9 +77,13 @@ hr{
     .wrap{
         display: block;
     }
-    .box2{
+    .box2 ,.box5{
         font-size: 15px;
     }
     .box1 p ,.box2 p ,.box5 p{
         font-size: 12px;
+    }
+    .box5{
+        margin-top: none;
+    }
 }
