@@ -79,6 +79,7 @@ hr{
     }
     .box2{
         font-size: 15px;
-        
     }
+    .box1 p ,.box2 p ,.box5 p{
+        font-size: 12px;
 }
