@@ -1,3 +1,7 @@
+body{
+    background: #696890;
+}
+
 *{
     font-family: 微軟正黑體;
     margin: 0;
@@ -5,14 +9,14 @@
 
 }
 
-/* .html{
-    height: 100%;
-} */
+.container{
+    max-width: 1426px;
+    margin: auto;
+}
 
 .wrap{
     background: #696890;
     display: flex;
-    padding: 10%;
     box-sizing: border-box;
     justify-content: center;
 
@@ -21,6 +25,7 @@
 .content{
     margin-top: 5%;
     margin-bottom: 5%;
+    width: 32%;
 }
 
 .content1{
@@ -29,6 +34,7 @@
     border-left: 1px solid #eee;
     letter-spacing: 2px;
     font-weight: normal;
+    width: 4%;
 }
 
 .box2 ,.box5{
