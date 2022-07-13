@@ -42,7 +42,6 @@ body{
     font-weight: bold;
     letter-spacing: 2px;
     line-height: 2;
-    width: auto;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 25px;   
@@ -94,7 +93,11 @@ a:hover{
 @media(max-width: 768px){
     .wrap{
         display: block;
+        margin: 0;
         padding: 5%;
+    }
+    .content{
+        width: 100%;
     }
     .content1{
         writing-mode: horizontal-tb;
@@ -103,13 +106,13 @@ a:hover{
         border-left: none;
         text-align: center;
     }
-    .box1{
-        margin-top: 15px;
-    }
 
     .box ,.box2{
         font-size: 18px;
         margin-bottom: 50px;
+    }
+    .box1{
+        margin-top: 15px;
     }
 
     .box2{
