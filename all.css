@@ -99,6 +99,7 @@ a:hover{
     .content{
         width: 100%;
     }
+    
     .content1{
         writing-mode: horizontal-tb;
         font-size: 15px;
@@ -111,10 +112,12 @@ a:hover{
         font-size: 18px;
         margin-bottom: 50px;
     }
+
     .box1{
         margin-top: 20px;
         margin-bottom: 30px;
     }
+
     .box2{
         margin-top: 0px;
         margin-bottom: none;
