@@ -1,6 +1,5 @@
 body{
-    background: #696890;
-    background-image: linear-gradient(to top right, #696890, #2b2b5e);
+    background-image: linear-gradient(to top right, #2b2b5e, #696890);
 }
 
 *{
@@ -15,7 +14,7 @@ body{
 }
 
 .wrap{
-    background: #696890;
+    background-image: linear-gradient(to top right, #2b2b5e, #696890);
     display: flex;
     box-sizing: border-box;
     justify-content: center;
