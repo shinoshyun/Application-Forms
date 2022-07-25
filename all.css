@@ -50,7 +50,7 @@ body{
     box-shadow: 0px 20px 20px -15px rgba(0,0,0,0.3);
 }
 .box1{
-    background: #696890;
+    background: none;
     color: #eee;
     margin-top: 75px;
     margin-left: 10px;
