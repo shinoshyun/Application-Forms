@@ -77,21 +77,27 @@ hr{
     margin-bottom: 15px;
 }
 
-a:link{
+a{
     color: #eee;
     background-color: #009bbf;
-    width: 30%;
+    display: block;
+    width: 45%;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    box-sizing: border-box;
-    border-radius: 8px;
-    margin-top: 15px;
+    border-radius: 10px;
 }
 
 a:hover{
-    color: rgb(240, 58, 94);
+    /* color: rgb(240, 58, 94); */
+    color: #eee;
+    background-color: rgb(240, 58, 94);
+    
+}
+
+span{
+    color: #009bbf;
     
 }
 
