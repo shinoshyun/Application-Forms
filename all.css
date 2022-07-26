@@ -78,15 +78,16 @@ hr{
 }
 
 a:link{
+    background-color: #ffada6;
     padding: 15px;
     color: #696890;
-    height: 48px;
-    min-width: 177px;
-    background-color: #ffada6;
+    width: 200px;
+	height: 200px;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
+    box-sizing: border-box;
     border-radius: 8px;
 }
 
