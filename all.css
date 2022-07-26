@@ -80,7 +80,7 @@ hr{
 a:link{
     background-color: #009bbf;
     padding: 8px;
-    color: #222222;
+    color: #eee;
     width: 200px;
     height: 100px;
     font-size: 18px;
@@ -89,6 +89,7 @@ a:link{
     text-decoration: none;
     box-sizing: border-box;
     border-radius: 8px;
+    margin-top: 15px;
 }
 
 a:hover{
