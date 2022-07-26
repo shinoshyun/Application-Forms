@@ -79,6 +79,8 @@ hr{
 
 a:link{
     color: #696890;
+    height: 48px;
+    background: #ffada6;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
