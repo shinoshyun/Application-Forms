@@ -1,5 +1,5 @@
 body{
-    background: #696890;
+    background-image: linear-gradient(to top left, #9b6262, #696890);
 }
 
 *{
@@ -14,7 +14,7 @@ body{
 }
 
 .wrap{
-    background: #696890;
+    background-image: linear-gradient(to top left, #9b6262, #696890);
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -48,9 +48,10 @@ body{
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 20px 20px -15px rgba(0,0,0,0.3);
+    text-align:justify
 }
 .box1{
-    background: #696890;
+    background: transparent;
     color: #eee;
     margin-top: 75px;
     margin-left: 10px;
@@ -77,17 +78,21 @@ hr{
 }
 
 a:link{
-    color: #696890;
+    color: #eee;
+    background-color: #009bbf;
+    width: 30%;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
-    text-decoration: none;   
+    text-decoration: none;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top: 15px;
 }
 
 a:hover{
     color: rgb(240, 58, 94);
-    background-color: transparent;
-    text-decoration: underline;
+    
 }
 
 @media(max-width: 768px){
