@@ -86,7 +86,7 @@ a{
     font-weight: bold;
     text-align: center;
     text-decoration: none;
-    border-radius: 10px;
+    border-radius: 25px;
 }
 
 a:hover{
@@ -133,5 +133,7 @@ span{
         margin-top: 0px;
         margin-bottom: none;
     }
-
+    a{
+        width: 60%;
+    }
 }
