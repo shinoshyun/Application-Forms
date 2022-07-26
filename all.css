@@ -78,7 +78,7 @@ hr{
 }
 
 a:link{
-    background-color: #ffada6;
+    background-color: #009bbf;
     padding: 8px;
     color: #696890;
     width: 200px;
@@ -94,7 +94,6 @@ a:link{
 a:hover{
     color: rgb(240, 58, 94);
     background-color: transparent;
-    text-decoration: underline;
 }
 
 @media(max-width: 768px){
