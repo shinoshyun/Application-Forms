@@ -78,9 +78,8 @@ hr{
 }
 
 a:link{
-    background-color: #009bbf;
-    padding: 8px;
     color: #eee;
+    background-color: #009bbf;
     width: 30%;
     font-size: 18px;
     font-weight: bold;
