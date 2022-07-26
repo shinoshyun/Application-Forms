@@ -14,7 +14,7 @@ body{
 }
 
 .wrap{
-    background-image: linear-gradient(to top left, #9b6262, #696890);
+    background: transparent;
     display: flex;
     box-sizing: border-box;
     justify-content: center;
