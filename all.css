@@ -14,6 +14,7 @@ body{
 }
 
 .wrap{
+    background-image: linear-gradient(to top left, #9b6262, #696890);
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -25,29 +26,40 @@ body{
     width: 32%;
 }
 
-.content1 {
-    writing-mode: horizontal-tb;
-    width: fit-content;
-    margin: 0 auto;
-    border-bottom: 1px solid #fff;
-    padding-bottom: 10px;
+.content1{
+    position: relative;
+    color: #eee;
+    writing-mode: vertical-lr;
+    /* border-left: 1px solid #eee; */
+    letter-spacing: 2px;
+    font-weight: normal;
+    width: 2%;
 }
 .content1::after{
-   display:none;
-}
+    content:'';
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 365px);
+    top: 323px;
+    left: 4px;
+    background-color: #fff;
+  }
 
-.box{
+.box ,.box2{
     background: #eee;
     color: #222222;
     font-size: 20px;
     font-weight: bold;
     line-height: 2;
-    margin: 0 10px 50px 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 50px;
     padding: 30px;
     border-radius: 10px;
     box-shadow: 0px 20px 20px -15px rgb(0 0 0 / 30%);
     text-align: justify;
-    position: relative;    
+    position: relative;
+    
 }
 
 .box1{
@@ -81,6 +93,7 @@ body{
     color: #222;
     width: 150px;
     height: 50px;
+    margin-right: 10px;
     border: 1px solid #222222;
     border-radius: 30px;
     text-align: center;
@@ -103,16 +116,21 @@ hr{
 }
     
 .btn{
+    display: block;
+    box-sizing: border-box;
     color: #eee;
     background-color: #009bbf;
     border: 1px solid #00788c;
-    font-size: 18px;
-    font-weight: bold;
-    display: block;
+    /* background-image: linear-gradient(to top left,#009bbf, #00dbff); */
     width: 75%;
+    height: 50px;
+    font-size: 18px;
     text-decoration: none;
     border-radius: 25px;
-    margin: 18px auto;
+    margin: 0 auto;
+    margin-top: 18px;
+    margin-bottom: 18px;
+    justify-content: center;
     text-align: center;
 }
 
@@ -120,11 +138,14 @@ hr{
     box-sizing: border-box;
     background-color: #F03A5E;
     border: 1px solid #C91F48;
+    /* background-image: linear-gradient(to top left,  #f03a5e, #f03a5e); */
 }
 
 span{
-    color: #009bbf;    
+    color: #009bbf;
+    
 }
+
 
 
 
@@ -146,19 +167,22 @@ span{
     }
     
     .content1{
-        writing-mode: sideways-lr;
+        position: relative;
         color: #eee;
+        writing-mode: vertical-lr;
+        border-left: 1px solid #eee; 
         letter-spacing: 2px;
         font-weight: normal;
-        width: 2%;
+        width: 2%; 
     }
 
-    .box{
+    .box ,.box2{
         background: #eee;
         color: #222222;
         font-size: 20px;
         font-weight: bold;
         letter-spacing: 2px;
+        line-height: 2;
         margin-left: 10px;
         margin-right: 10px;
         margin-bottom: 50px;
@@ -183,4 +207,7 @@ span{
         margin-bottom: none;
     }
 
+    .btn{
+        width: 80%;
+    }
 }
