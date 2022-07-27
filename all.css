@@ -14,7 +14,6 @@ body{
 }
 
 .wrap{
-    background-image: linear-gradient(to top left, #9b6262, #696890);
     display: flex;
     box-sizing: border-box;
     justify-content: center;
@@ -90,14 +89,15 @@ body{
 
 .number{
     background-color: #eee;
-    color: #222;
+    color: #4C4C4C;
     width: 150px;
     height: 50px;
     margin-right: 10px;
-    border: 1px solid #222222;
+    /* border: 1px solid #222222; */
     border-radius: 30px;
     text-align: center;
-    font-size: 25px;
+    font-size: 23px;
+    letter-spacing: 2px;
     position: absolute;
     top: -27px;
     left: 0;
@@ -145,8 +145,6 @@ span{
     color: #009bbf;
     
 }
-
-
 
 
 @media(max-width: 1300px){
