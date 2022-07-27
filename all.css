@@ -27,12 +27,14 @@ body{
 }
 
 .content1{
+    position: relative;
     color: #eee;
     writing-mode: vertical-lr;
-    border-left: 1px solid #eee;
+    /* border-left: 1px solid #eee; */
     letter-spacing: 2px;
     font-weight: normal;
-    width: 4%;
+    width: 2%;
+    z-index: 1;
 }
 
 .box ,.box2{
@@ -44,11 +46,12 @@ body{
     line-height: 2;
     margin-left: 10px;
     margin-right: 10px;
-    margin-bottom: 25px;   
+    margin-bottom: 50px;
     padding: 30px;
     border-radius: 10px;
-    box-shadow: 0px 20px 20px -15px rgba(0,0,0,0.3);
+    box-shadow: 0px 20px 20px -15px rgb(0 0 0 / 30%);
     text-align: justify;
+    position: relative;
     
 }
 .box1{
@@ -78,7 +81,6 @@ body{
 }
 
 .number{
-    display: block;
     background-color: #eee;
     color: #222;
     width: 150px;
@@ -87,8 +89,13 @@ body{
     border: 1px solid #222222;
     border-radius: 30px;
     text-align: center;
-    vertical-align: middle;      
+    vertical-align: middle;
     font-size: 25px;
+    position: absolute;
+    top: -27px;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
@@ -96,6 +103,7 @@ hr{
     margin-top: 15px;
     margin-bottom: 15px;
 }
+
 .class{
     text-align: center;
 }
@@ -129,6 +137,7 @@ span{
     color: #C91F48;
     
 }
+
 @media(max-width: 1300px){
     .btn{
         width: 80%;
@@ -148,16 +157,31 @@ span{
     }
     
     .content1{
-        writing-mode: horizontal-tb;
-        font-size: 15px;
-        border-bottom: 1px solid #eee;
-        border-left: none;
-        text-align: center;
+        position: relative;
+        color: #eee;
+        writing-mode: vertical-lr;
+        /* border-left: 1px solid #eee; */
+        letter-spacing: 2px;
+        font-weight: normal;
+        width: 2%;
+        z-index: 1;
     }
 
     .box ,.box2{
-        font-size: 18px;
+        background: #eee;
+        color: #222222;
+        font-size: 20px;
+        font-weight: bold;
+        letter-spacing: 2px;
+        line-height: 2;
+        margin-left: 10px;
+        margin-right: 10px;
         margin-bottom: 50px;
+        padding: 30px;
+        border-radius: 10px;
+        box-shadow: 0px 20px 20px -15px rgb(0 0 0 / 30%);
+        text-align: justify;
+        position: relative;
         
     }
 
@@ -170,6 +194,7 @@ span{
         margin-top: 0px;
         margin-bottom: none;
     }
+
     .btn{
         width: 80%;
     }
