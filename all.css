@@ -146,7 +146,7 @@ span{
     }
     
     .content1{
-        position: relative;
+        writing-mode: sideways-lr;
         color: #eee;
         letter-spacing: 2px;
         font-weight: normal;
