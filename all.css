@@ -34,8 +34,16 @@ body{
     letter-spacing: 2px;
     font-weight: normal;
     width: 2%;
-    z-index: 1;
 }
+.content1::after{
+    content:'';
+    position: absolute;
+    width: 1px;
+    height: calc(100% - 314px);
+    top: 323px;
+    left: 4px;
+    background-color: #fff;
+  }
 
 .box ,.box2{
     background: #eee;
