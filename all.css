@@ -73,6 +73,24 @@ body{
     line-height: 2; 
     margin-top: 12px; 
 }
+.question{
+    display: flex;
+}
+
+.number{
+    display: block;
+    background-color: #eee;
+    color: #222;
+    width: 150px;
+    height: 50px;
+    margin-right: 10px;
+    border: 1px solid #222222;
+    border-radius: 30px;
+    text-align: center;
+    vertical-align: middle;      
+    font-size: 25px;
+}
+
 
 hr{
     margin-top: 15px;
