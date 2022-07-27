@@ -78,35 +78,44 @@ hr{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
+.class{
+    text-align: center;
+}
+    
 .btn{
     color: #eee;
-    background-color: #009bbf;
+    /* background-color: #009bbf; */
+    background-image: linear-gradient(to top left,#009bbf, #00dbff);
     display: block;
-    width: 45%;
+    width: 75%;
     font-size: 18px;
     font-weight: bold;
     text-align: center;
     text-decoration: none;
     border-radius: 25px;
-    margin-top: 15px;
+    margin: 0 auto;
+    margin-top: 18px;
     text-align: center;
 }
 
 .btn:hover{
-    /* color: rgb(240, 58, 94); */
-    background-color: rgb(240, 58, 94);
-    border-bottom: 1px solid #eee;
-    text-decoration: underline;
-    
+    /* background-color: #F03A5E; */
+    background-image: linear-gradient(to top left,  #f03a5e, #f03a5e);
 }
 
 span{
     color: #009bbf;
     
 }
+@media(max-width: 1300px){
+    .btn{
+        width: 80%;
+    }
 
-@media(max-width: 768px){
+}
+
+
+@media(max-width: 850px){
     .wrap{
         display: block;
         margin: 0;
