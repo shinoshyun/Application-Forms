@@ -170,8 +170,8 @@ span{
         font-weight: bold;
         writing-mode: horizontal-tb;
         text-align: center;
-        border-bottom: 1px solid;
-        padding-bottom: 17px;
+        border: 1px solid;
+        padding: 17px;
         width: 288px;
         margin: auto;
     }
