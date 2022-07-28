@@ -162,18 +162,20 @@ span{
         width: 100%;
     }
     
-    .content1{
+    .content1 {
         display: block;
         color: #eee;
-        letter-spacing: 1px;
+        letter-spacing: 0px;
         line-height: 32px;
         font-weight: bold;
+        font-size: 13px;
         writing-mode: horizontal-tb;
         text-align: center;
         border: 1px solid;
-        padding: 17px;
-        width: 288px;
+        padding: 5px;
+        width: 237px;
         margin: auto;
+        text-align: center;
     }
 
     .box{
