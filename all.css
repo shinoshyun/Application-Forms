@@ -43,12 +43,13 @@ body{
     background-color: #fff;
   }
 
-.box ,.box2{
+.box{
     background: #eee;
     color: #222222;
     font-size: 20px;
     font-weight: bold;
     line-height: 2;
+    letter-spacing: 1px;
     margin-left: 10px;
     margin-right: 10px;
     margin-bottom: 50px;
