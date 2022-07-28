@@ -29,7 +29,6 @@ body{
     position: relative;
     color: #eee;
     writing-mode: vertical-lr;
-    /* border-left: 1px solid #eee; */
     letter-spacing: 2px;
     font-weight: normal;
     width: 2%;
@@ -159,19 +158,20 @@ span{
         display: block;
         margin: 0;
         padding: 5%;
+        position: relative;
     }
     .content{
         width: 100%;
     }
     
     .content1{
-        position: relative;
+        position: absolute;
         color: #eee;
-        writing-mode: vertical-lr;
+        font-size: 10px;
         border-left: 1px solid #eee; 
         letter-spacing: 2px;
-        font-weight: normal;
-        width: 2%; 
+        top: 70px;
+        left: 30px;
     }
 
     .box ,.box2{
