@@ -174,7 +174,7 @@ span{
         left: 30px;
     }
 
-    .box ,.box2{
+    .box{
         background: #eee;
         color: #222222;
         font-size: 20px;
@@ -203,9 +203,5 @@ span{
     .box2{
         margin-top: 0px;
         margin-bottom: none;
-    }
-
-    .btn{
-        width: 80%;
     }
 }
