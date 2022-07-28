@@ -165,14 +165,14 @@ span{
     .content1{
         display: block;
         color: #eee;
-        letter-spacing: 2px;
+        letter-spacing: 1px;
         line-height: 32px;
         font-weight: bold;
         writing-mode: horizontal-tb;
         text-align: center;
         border-bottom: 1px solid;
         padding-bottom: 17px;
-        width: 50%;
+        width: 288px;
         margin: auto;
     }
 
